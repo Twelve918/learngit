@@ -20,3 +20,5 @@ Git is free software.
 7.用git status查看一下状态，如果是从来没有被添加过的文件，状态是Untracked files；已经添加过被修改的文件，状态是Changes not staged for commit
 
 8.git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支
+
+9.
