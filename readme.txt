@@ -9,3 +9,4 @@ Git is free software.
 	2)使用命令git commit -m <备注>，完成。
 3.git status命令可以让我们时刻掌握仓库当前的状态，上面的命令输出告诉我们，readme.txt被修改过了，但还没有准备提交的修改。
 4.git diff顾名思义就是查看difference，显示的格式正是Unix通用的diff格式，可以从上面的命令输出看到，我们在第一行添加了一个distributed单词。
+5.
