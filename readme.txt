@@ -17,4 +17,6 @@ Git is free software.
 6.
 	1）穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。2）要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。(reflog会记录每一次命令)
 
-7.
+7.用git status查看一下状态，如果是从来没有被添加过的文件，状态是Untracked files；已经添加过被修改的文件，状态是Changes not staged for commit
+
+8.git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支
